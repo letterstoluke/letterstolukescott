@@ -1,12 +1,12 @@
 html {
-  background: url(lukewallpaper.png) no-repeat center center fixed;
+  background: url(lukewall2.png) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
 }
 
 body {
-  background-image: url('lukewallpaper.png');
+  background-image: url('lukewall2.png');
 }
 
 #bg {
