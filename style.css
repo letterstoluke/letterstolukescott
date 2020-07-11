@@ -1,4 +1,21 @@
-html {
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #80a0b0;
+}
+
+#bg {
+  display: grid;
+  height: 100%;
+}
+
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+/* html {
   background: url(lukewall2.png) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
@@ -7,16 +24,16 @@ html {
 
 body {
   background-image: url('lukewall2.png');
-}
+} */
 
-#bg {
+/* #bg {
   position: fixed;
   top: -50%;
   left: -50%;
   width: 200%;
   height: 200%;
-}
-#bg img {
+} */
+/* #bg img {
   position: absolute;
   top: 0;
   left: 0;
@@ -24,5 +41,5 @@ body {
   bottom: 0;
   margin: auto;
   min-width: 50%;
-  min-height: 50%;
-}
+  min-height: 100vh;
+} */
