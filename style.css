@@ -1,10 +1,128 @@
-* {
+* { 
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #80a0b0;
+  background-color: #262626;
 }
 
-#bg {
+body{
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(146, 143, 143);
+  background-color: #262626;
+}
+
+.login-div {
+  width: 430px;
+  height: 90vh;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background-color: #262626;
+  box-shadow: 13px 13px 15px #0f0f0f5e,
+  -13px -13px 10px #110f0f42;
+
+}
+
+
+.logo {
+  background: url("m_luke.jpg");
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px #555555,
+  0px 0px 0px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+
+.fields{
+  width: 100%;
+  padding: 35px 5px 5px 5px;
+  
+}
+
+.fields input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+}
+
+.username,
+.password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #0f0f0f5e,
+  inset -8px -8px 8px #110f0f42;
+}
+
+.fields svg {
+  height: 22px;
+  margin: 0 10px -3px 25px;
+
+}
+
+.signin-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #02c8db;
+  box-shadow: 3px 3px 8px #0f0f0f5e, -3px -3px 8px#110f0f42;
+  transition: all 0.5s;
+  
+
+}
+
+.signin-button:hover {
+  background-color: #50e5b5;
+}
+
+.signin-button:active {
+  background-color: #88ef9e;
+}
+
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.link a {
+  text-decoration: none;
+  //color: #aaa;
+  font-size: 15px;
+}
+
+
+/* #bg {
   display: grid;
   height: 100%;
 }
@@ -13,33 +131,4 @@
   max-width: 100%;
   max-height: 100vh;
   margin: auto;
-}
-
-/* html {
-  background: url(lukewall2.png) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-}
-
-body {
-  background-image: url('lukewall2.png');
-} */
-
-/* #bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-} */
-/* #bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 100vh;
 } */
